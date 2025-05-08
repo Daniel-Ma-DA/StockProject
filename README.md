@@ -24,10 +24,12 @@ Dieses Projekt lädt Daten von einer Website herunter, speichert sie in einer SQ
    ```
 3. **Virtuelle Umgebung erstellen (empfohlen)**:
    ```sh
-   python -m venv venv
+   python -m venv venv     # terminal vsCode das ausgeführt
    source venv/bin/activate  # macOS/Linux
    venv\Scripts\activate     # Windows
    ```
+Starten kann man das virtuelle mit venv\Scripts\Activate
+
 4. **Abhängigkeiten installieren**:
    ```sh
    pip install -r requirements.txt
@@ -68,3 +70,7 @@ URL = "https://api.example.com/data"
 - Erweiterung auf eine relationale Datenbank wie PostgreSQL oder MySQL
 - Automatische Updates mit `cron` oder `Windows Task Scheduler`
 
+
+
+
+Von der reinen lehre wird abgewischen aus performance gründen jede aktie eigene Tabelle
